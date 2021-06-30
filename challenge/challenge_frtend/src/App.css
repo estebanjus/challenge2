@@ -1,0 +1,245 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  overflow-x: hidden;
+  background-color: dodgerblue;
+}
+.input-app{
+  padding: 5px;
+  color:dodgerblue;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  border: 2px solid white;
+  border-radius: 30px;
+  outline: none;
+}
+
+.button-app{
+  padding: 5px;
+  color:dodgerblue;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  border: 2px solid white;
+  border-radius: 30px;
+  outline: none;
+  margin-left: 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-gap: 5%;
+  grid-template-columns: auto auto auto auto;
+  background-color: dodgerblue;
+  padding: 10px 100px;
+  grid-auto-flow: row;
+  margin-bottom: 200px;
+}
+.grid-titulo {
+  font-size: 3rem;
+  text-align: center;
+  border-radius: 10px;
+  grid-column: 1 / span 4;
+  color:white;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.grid-item {
+  background-color: white;
+  padding: 20px;
+  font-size: 1.2rem;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px 2px black;
+  position:relative
+}
+
+.grid-item-titulo{
+  background-color: dodgerblue;
+  color:white;
+  padding: 10px;
+  font-size: 1.2rem;
+  text-align: center;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.grid-item-tareas{
+  background-color: dodgerblue;
+  color:white;
+  padding: 10px;
+  font-size: 1rem;
+  text-align: center;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.grid-item-add{
+  background-color: red;
+  color:white;
+  padding: 10px;
+  font-size: 1rem;
+  text-align: center;
+  border-radius: 10px;
+  margin: 20px 0;
+  cursor: pointer;
+  font-weight: bold
+}
+
+.grid-item-input{
+  padding: 10px;
+  margin: 0;
+  border:none;
+  box-shadow: 0px 0px 1px 1px black;
+  border-radius: 10px;
+}
+
+.grid-item-bin{
+  color:white;
+  padding: 10px;
+  font-size: 1.2rem;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.grid-item-bin:hover{
+  color:red
+}
+
+.grid-item-boton {
+  color: white!important;
+  background-color: rgb(211, 26, 26);
+  padding: 20px;
+  font-size: 1.2rem;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px 2px black;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: bold
+}
+
+.link-app{
+  color:white!important;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  border: 2px solid white;
+  border-radius: 30px;
+  background-color: DodgerBlue;
+  text-align: center;
+  padding: 10px;
+  grid-column: 1 / span 3;
+}
+
+.grid-container-2{
+  display: grid;
+  grid-column-gap: 10px;
+  grid-row-gap: 20px;
+  grid-template-columns: auto;
+  background-color: dodgerblue;
+  padding: 10px 100px;
+  grid-auto-flow: column;
+  justify-items: center;
+}
+
+.grid-item-2 {
+  background-color: white;
+  padding: 10px;
+  font-size: 1.2rem;
+  text-align: center;
+  border-radius: 10px;
+  text-align: left;
+  grid-column: 1 / span 4;
+}
+
+.grid-item-none{
+  background-color: white;
+  padding: 20px;
+  font-size: 1.2rem;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px 2px black;
+  position:relative;
+  grid-column: 1 / span 4;
+}
+
+.grid-button {
+  background-color: red;
+  padding: 15px;
+  font-size:1.2rem;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px 2px black;
+  grid-column: 1 / span 4;
+  color:white;
+  font-weight: bold;
+}
+
+.d-none{
+  display: none;
+}
+
+.borrar-proyecto{
+  position:absolute;
+  top:-20px;
+  right:-20px;
+  font-size:1.5rem;
+  background-color:red;
+  padding:2px;
+  border-radius:40px;
+  width:40px;
+  height:40px;
+  color:white;
+  cursor: pointer;
+  font-weight: bolder;
+}

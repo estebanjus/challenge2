@@ -1,0 +1,11 @@
+1. comando para iniciar: npm start
+2. repositorio git: https://github.com/estebanjus/challenge.git
+
+Hice el programa en pocas horas, no se de cuanto tiempo dispongo desde que me mandaron el mail, si me dan
+mas tiempo puedo ponerle todos los detalles, como hacer que se re-renderize solo lo justo y necesario
+(en lugar de todo, como ahora). hacerlo mucho mas profesional con bootstrap (ahora lo hice con grid, yo uso
+siempre bootstrap y grid lo acabo de aprender sobre la marcha) y etc.
+
+Estoy haciendo una plataforma muy grande que es una mezcla de facebook, reddit y taringa, no puedo pasarles 
+el repositorio porque por motivos obvios es privado, pero en una eventual llamada de video podria compartirles
+pantalla y mostrarles el codigo y el proyecto. Creo que seria una manera mucho mejor de evaluarme. 
